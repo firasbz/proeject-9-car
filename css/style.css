@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@500&display=swap');
+
+body {
+    font-family: 'Cairo', sans-serif;
+    background-color: #eee;
+    height:auto;
+}
+
+
+/********************** start header  *********************/
+
+.header {
+    background-color: #cd1d1f;
+    color: white;
+    text-align: right;
+    height: 35px;
+}
+
+.header .col {
+    margin-top: 3px;
+    margin-right: 40px;
+}
+
+.header .col .fa-solid {
+    margin-right: 25px;
+}
+
+/********************** end header  *********************/
+
+
+/********************** start navbar  *********************/
+
+.bg-light {
+    background-color: #000000 !important;
+}
+.navbar-nav .nav-link:hover{
+   background-color: #cd1d1f;
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: white;
+    font-size: large;
+    margin-right: 20px;
+}
+
+/********************** end navbar  *********************/
+
+
+/********************** start slider *********************/
+
+.carousel-inner {
+    height: 650px;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    background-color:#cd1d1f;
+}
+
+/********************** end slider *********************/
+
+
+/********************** start availabel car*********************/
+
+.availabelcar h3 {
+    background-color: #cd1d1f;
+    color: white;
+    font-size: xx-large;
+    margin-right: 100px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-left: 8px;
+    padding-bottom: 10px;
+
+}
+
+.card {
+    margin-right: 40px;
+    margin-bottom: 40px;
+}
+
+.card-img,
+.card-img-bottom,
+.card-img-top {
+    height: 170px;
+}
+
+.card-title {
+    color: #cd1d1f;
+    background-color: #eee;
+}
+
+.btn-outline-danger {
+    margin-bottom: 10px;
+}
+
+/********************** end availabel car*********************/
+
+
+/********************* start customers *********************/
+
+.customers h3 {
+    color: white;
+    background-color: #cd1d1f;
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 50px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 0px;
+}
+
+.customers .row {
+    background-image: url('../images/customer.jpg');
+    background-position: center center;
+}
+
+/********************* end customers *********************/
+
+
+/********************* start Why Choose us *********************/
+
+ .Choose h2 {
+    margin-top: 100px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    text-align: left;
+    border-left: 5px double #cd1d1f;
+    padding-left: 10px;
+}
+
+#carousel-services {
+    border-top: 1px solid #aaa5a5;
+    padding: 20px 0 0 0;
+    margin-left: 50px;
+    margin-right: 200px;
+}
+
+.Choose i {
+    width: 100px;
+    height: 50px;
+    color: #cd1d1f;
+    background-color: #eee;
+    line-height: 50px;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.Choose h5 {
+    color: black;
+    font-weight: bold;
+}
+
+.Choose p {
+    color: #6d6767;
+}
+
+.col-lg-3 {
+    margin-right: 80px;
+    margin-top: 5px;
+}
+
+/********************* end Why Choose us *********************/
+
+
+/*********************star footer **********************/
+
+footer{
+    height:auto;
+    margin-top: 150px;
+    background-color: #242222;
+    background-position: center center;
+}
+dl, ol, ul{
+    margin-left: 50px;
+}
+.middlefoot h2{
+    border-left: 2px double #cd1d1f;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+/********************* end footer **********************/
